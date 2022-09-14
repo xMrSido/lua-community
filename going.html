@@ -1,0 +1,59 @@
+<html>
+    <meta charset="UTF-8"/>
+    <style>
+        @font-face {
+            font-family: as;
+            src: url(as.otf);
+        }
+        *{
+            font-family: as;
+        }
+#ss {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	min-width: 110%;
+	min-height: 110%;
+	width: auto;
+	height: auto;
+	z-index: -100;
+	transform: translateX(-50%) translateY(-50%);
+	-webkit-filter: blur(5px);
+	background-size: cover;
+	transition: 1s opacity;
+	filter: progid:DXImageTransform.Microsoft.Blur(pixelRadius=5);
+    background-color: black;
+}
+
+#lg {
+position: absolute;
+right: 18%;
+top: 30%;
+height: 450px;
+width: 450px;
+transform: translateX(-50%) translateY(-50%);
+	-webkit-filter: blur(5px);
+	background-size: cover;
+	transition: 1s opacity;
+	filter: progid:DXImageTransform.Microsoft.Blur(pixelRadius=5);
+
+}
+
+#taxigo {
+    position: absolute;
+    color: white;
+    right: 30%;
+    top: 50%;
+    font-size: 60px;
+    transition: 1s opacity;
+	filter: progid:DXImageTransform.Microsoft.Blur(pixelRadius=5);
+}
+    </style>
+    <h1 id="ss"></h1>
+    <h1 id="taxigo">......الموقع الرسمي لنا قريبا</h1>
+    <img src="TAXI.png" id="lg"/>
+
+
+
+    <script src="script.js"></script>
+</html>
